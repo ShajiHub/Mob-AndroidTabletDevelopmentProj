@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#8E1D02"
+    tools:context=".LoginPage">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="661dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="619dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/logbg" />
+
+    <TextView
+        android:id="@+id/registerUserTitle"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:padding="10dp"
+        android:shadowColor="#25210E"
+        android:shadowDx="1"
+
+        android:shadowDy="1"
+        android:shadowRadius="8"
+        android:text="New User Register Page"
+        android:textColor="#DD9259"
+        android:textSize="70sp" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="75dp"
+        android:background="#D6CCB5"
+        android:ems="10"
+        android:hint="Enter your Name..."
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/userEmailAddress"
+        android:layout_width="584dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="78dp"
+        android:background="#D6CCB5"
+        android:ems="10"
+        android:hint="Enter your Email..."
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="73dp"
+        android:background="#D6CCB5"
+        android:ems="10"
+        android:hint="Enter your password..."
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/userRegisterButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="252dp"
+        android:backgroundTint="#DD9259"
+        android:text="Register User"
+        android:textColor="#F6DBDB"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
+
+
+
+
+
+

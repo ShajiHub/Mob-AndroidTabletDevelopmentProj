@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/archivo_black</item>
+        <item>@font/artifika</item>
+        <item>@font/baloo</item>
+        <item>@font/barriecito</item>
+        <item>@font/bebas_neue</item>
+        <item>@font/chela_one</item>
+        <item>@font/fjalla_one</item>
+    </array>
+</resources>

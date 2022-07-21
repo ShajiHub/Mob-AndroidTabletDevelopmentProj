@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+
+    <string-array name="foodmenu">
+        <item>SOUPS</item>
+        <item>SANDWICHES</item>
+        <item>PASTA</item>
+        <item>MEAT/CHICKEN</item>
+        <item>CASSEROLES</item>
+        <item>KIDS-FAV</item>
+        <item>DIET_FOOD</item>
+    </string-array>
+
+</resources>
